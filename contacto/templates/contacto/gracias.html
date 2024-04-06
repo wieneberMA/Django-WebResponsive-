@@ -1,0 +1,12 @@
+{% extends "proyectoWebApp/Base.html" %}
+{% load static %}
+{% block content %}
+<div class="contenedorFormulario">
+   {% if "valido" in request.GET %}
+      <p style="color: white";>Informacion Enviada</p>
+   {% endif %}
+      <input type="submit" value="Atras" style=" width:150px;">
+   </form>
+</div>
+
+{% endblock %}
